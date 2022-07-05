@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context=".OtpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/et_number1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="*"
+            android:inputType="number"
+            android:maxLength="1"
+            android:minWidth="48dp"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/et_number2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="*"
+            android:inputType="number"
+            android:maxLength="1"
+            android:minWidth="48dp"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/et_number3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="*"
+            android:inputType="number"
+            android:maxLength="1"
+            android:minWidth="48dp"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/et_number4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="*"
+            android:inputType="number"
+            android:maxLength="1"
+            android:minWidth="48dp"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/bt_done"
+        app:cornerRadius="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="DONE"
+        android:padding="12dp"></com.google.android.material.button.MaterialButton>
+</LinearLayout>
